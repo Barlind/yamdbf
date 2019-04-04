@@ -1,0 +1,4 @@
+[CMD_RELOAD_SUCCESS]
+Reloaded {{ number }} command{{!
+	parseInt(args.number) === 1 ? '' : 's'
+!}}. ({{ time }} ms) -- Check the logger for relevant information.
