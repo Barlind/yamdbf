@@ -43,10 +43,8 @@ export class Database
 		 * your chosen storage provider
 		 * @type {Sequelize}
 		 */
-
-		// this.db = new seq(this._url, { dialect: 'mssql', dialectOptions: { options: { encrypt: true } } });
-
-		this.db = new seq(this._url, {  dialect: 'mssql', dialectOptions: { options: { encrypt: true } }, logging });
+		
+		this.db = new seq(this._url, { logging });
 	}
 
 	/**
