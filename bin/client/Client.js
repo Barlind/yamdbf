@@ -206,7 +206,7 @@ class Client extends Discord.Client {
          */
         this.tsNode = options.tsNode || false;
         Lang_1.Lang.createInstance(this);
-        Lang_1.Lang.loadLocalizations();
+        // Lang.loadLocalizations();
         CompactModeHelper_1.CompactModeHelper.createInstance(this);
         if (!this.passive) {
             this._commandLoader = new CommandLoader_1.CommandLoader(this);

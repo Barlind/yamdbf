@@ -43,7 +43,6 @@ export class Database
 		 * your chosen storage provider
 		 * @type {Sequelize}
 		 */
-		
 		this.db = new seq(this._url, { logging });
 	}
 

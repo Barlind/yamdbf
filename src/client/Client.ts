@@ -294,7 +294,7 @@ export class Client extends Discord.Client
 		this.tsNode = options.tsNode || false;
 
 		Lang.createInstance(this);
-		Lang.loadLocalizations();
+		// Lang.loadLocalizations();
 
 		CompactModeHelper.createInstance(this);
 
